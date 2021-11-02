@@ -3,21 +3,25 @@
 <head> 
 	<meta charset="UTF-8"/>
 	<title>The Greatest Country</title>
-	<link rel="icon" href="wikipedia_icon.ico">	
+	<link rel="icon" href="wikipedia_icon.ico"/>	
 	<meta name="keywords" content="Canada, history, Wikipedia, Country "/>
 	<meta name="description" content="Information about Canada"/>
 	<meta name="viewport" content="width= device-width, initial-scale=1.0"/>
+	
+	<link rel="stylesheet" href="basic.css"/>
+
 </head>
 
 <body>
 	<header> 
+		<h2>Canada</h2>
 		<h4>Wikipedia page for Canada</h4>
-		<form>
 		<nav>
-		<input name="searchBox" placeholder="Search">
-		<input type="submit" value="Search">
+			<form>
+				<input name="searchBox" placeholder="Search">
+				<input type="submit" value="Search">
+			</form>
 		</nav>
-		</form>
 	</header>
 	<br/>
 	<article>
@@ -53,7 +57,7 @@
 		</div>
 		<br/>
 		<h4>Contents</h4>
-			<ul>
+			<ul id="content_list">
 				<li><a href="#etymology">Etymology</a></li>
 				<li><a href="#history">History</a></li>
 				<li><a href="#geography">Geography</a></li>
@@ -104,20 +108,20 @@
 				</summary>
 				<table>
 					<tr>
-						<th>CMA &nbsp</th>
-						<th>Province &nbsp</th>
-						<th>Population &nbsp</th>
+						<th>CMA</th>
+						<th>Province</th>
+						<th>Population</th>
 						
 					</tr>
 					
 					<tr>
-						<td>Toronto &nbsp</td>
-						<td>Ontario &nbsp</td>
+						<td>Toronto</td>
+						<td>Ontario</td>
 						<td>5,928,040</td>
 					</tr>
 					<tr>
-						<td><a href="https://en.wikipedia.org/wiki/Calgary">Calgary &nbsp</a></td>
-						<td>Alberta &nbsp</td>
+						<td><a href="https://en.wikipedia.org/wiki/Calgary">Calgary</a></td>
+						<td>Alberta</td>
 						<td>1,392,609</td>
 					</tr>
 					
@@ -126,6 +130,8 @@
 			</details>
 			
 		</div>
+		<img id="calgary_img" src="calgary.jpg" alt="calgary_final_revised" />
+		
 	</article>
 	<aside>
 		<br/>
@@ -138,7 +144,7 @@
 		<li><a href="https://en.wikipedia.org/wiki/Australia" target="_blank">Australia</a></li>
 		</ol>
 	</aside>
-	<hr/>
+	
 	<br/>
 	
 <footer>
