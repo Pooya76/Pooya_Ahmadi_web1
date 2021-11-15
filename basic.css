@@ -45,7 +45,7 @@ table td{
 
 }
 
-#calgary_img:hover {
+#calgary_img:active {
   width: 700px;
   height: 300px;
   transform: rotate(360deg);
@@ -62,4 +62,27 @@ footer video{
 
 footer video:hover{
 	width: 350px;
+}
+
+#flex_section{
+	display: flex;
+}
+
+.flex_col{
+	box-shadow: 4px 6px 3px grey;
+	margin: 1px;
+	padding: 5px;
+}
+
+#geography{
+	border-right: none;
+}
+
+@media only screen and (max-width: 900px){
+	#flex_section{
+		flex-wrap: wrap;
+	}
+	.flex_col{
+		box-shadow: none;
+	}
 }
