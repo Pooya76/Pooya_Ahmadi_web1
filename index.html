@@ -8,8 +8,8 @@
 	<meta name="description" content="Information about Canada"/>
 	<meta name="viewport" content="width= device-width, initial-scale=1.0"/>
 	
-	<link rel="stylesheet" href="basic.css"/>
-
+	<link rel="stylesheet" href="basic.css" id= "indexCSS"/>
+	<script src="darkMode.js" defer> </script>
 </head>
 
 <body>
@@ -20,6 +20,13 @@
 			<form>
 				<input name="searchBox" placeholder="Search">
 				<input type="submit" value="Search">
+			</form>
+			<form id="toggle-switch">
+				<small id="mode_title">Dark mode</small>
+				<label class="switch">	
+					<input id="toggle" type="checkbox" onclick="changeMode(event)">
+					<span class="slider round"></span>
+				</label>
 			</form>
 		</nav>
 	</header>

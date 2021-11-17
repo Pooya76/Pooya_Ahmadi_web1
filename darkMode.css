@@ -1,5 +1,6 @@
 body {
-  background-color: linen;
+  background-color: black;
+  color: white;
   margin: 10px;
   font-family: Arial, Garamond, sans-serif;
 }
@@ -12,24 +13,22 @@ header{
 header form{
 	text-align: right;
 }
-
 #toggle-switch{
 	margin-left: 5px;
 	text-align: left;
 }
-
 #content_list{
 	list-style-type: square;
 	text-decoration: none;
 }
 
 #content_list li a{
-	color: blue;
+	color: red;
 	text-decoration: none;
 }
 
 a{
-	color: blue;
+	color: red;
 }
 
 table{
@@ -74,7 +73,7 @@ footer video:hover{
 }
 
 .flex_col{
-	box-shadow: 4px 6px 3px grey;
+	box-shadow: 4px 6px 5px #9966ff;
 	margin: 1px;
 	padding: 5px;
 }
