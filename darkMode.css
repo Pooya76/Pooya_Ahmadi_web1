@@ -1,138 +1,17 @@
 body {
   background-color: black;
   color: white;
-  margin: 10px;
-  font-family: Arial, Garamond, sans-serif;
-}
-header{
-	border: 2px solid #808080;
-	text-align: center;
-	text-transform: capitalize;
-}
-
-header form{
-	text-align: right;
-}
-#toggle-switch{
-	margin-left: 5px;
-	text-align: left;
-}
-#content_list{
-	list-style-type: square;
-	text-decoration: none;
 }
 
 #content_list li a{
 	color: red;
-	text-decoration: none;
 }
 
 a{
 	color: red;
 }
 
-table{
-	border: 2px solid black;
-}
-
-table td{
-	border-top: 2px solid black;
-	padding: 10px;
-}
-
-#calgary_img{
-	width: 250px;
-	height: 200px;
-	transition: width 2s, height 2s, transform 2s;
-	padding-left: 40px;
-	padding-top: 40px;
-
-}
-
-#calgary_img:active {
-  width: 700px;
-  height: 300px;
-  transform: rotate(360deg);
-}
-
-footer{
-	border-top: 2px dotted #808080;
-}
-
-footer video{
-	margin: 15px 0 0 10px;
-	transition: width 2s, height 2s, transform 2s;
-}
-
-footer video:hover{
-	width: 350px;
-}
-
-#flex_section{
-	display: flex;
-}
-
 .flex_col{
 	box-shadow: 4px 6px 5px #9966ff;
-	margin: 1px;
-	padding: 5px;
-}
-
-#geography{
-	border-right: none;
-}
-
-@media only screen and (max-width: 900px){
-	#flex_section{
-		flex-wrap: wrap;
-	}
-	.flex_col{
-		box-shadow: none;
-	}
-}
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 24px;
-  margin-bottom: 5px;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: grey;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 20px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:checked + .slider:before{
-  transform: translateX(30px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+	background-color: black;
 }

@@ -8,8 +8,12 @@
 	<meta name="description" content="Information about Canada"/>
 	<meta name="viewport" content="width= device-width, initial-scale=1.0"/>
 	
-	<link rel="stylesheet" href="basic.css" id= "indexCSS"/>
+	<link rel="stylesheet" href="basic.css"/>
+	<link rel="stylesheet" href="defaultMode.css" id= "indexCSS"/>
 	<script src="darkMode.js" defer> </script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+
 </head>
 
 <body>
@@ -36,7 +40,7 @@
 		<hr/>
 		<sub>From Wikipedia, the free encyclopedia</sub>
 		<br/>
-		<div>
+		<div >
 			<p> &nbsp<b>Canada</b> is a country in 
 			<a href="https://en.wikipedia.org/wiki/North_America" target="_blank">North America</a>. 
 			Its ten provinces and three territories extend from
@@ -46,7 +50,7 @@
 			(5,525 mi), is the world's longest bi-national land border.<br/>Canada's capital is Ottawa
 			, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.
 			</p>
-			<img src="canada.jpg" align="right" alt="canada" width="250px" height="200px">
+			<img src="canada.jpg" align="right" alt="canada" width="250px" height="200px" >
 			<p>&nbsp Indigenous peoples have continuously inhabited what is now Canada for thousands of years.
 			Beginning in the 16th century, British and French expeditions explored<br/> and later settled
 			along the Atlantic coast. As a consequence of various armed conflicts, France ceded nearly
@@ -64,22 +68,22 @@
 		</div>
 		<br/>
 		<h4>Contents</h4>
-			<ul id="content_list">
+			<ul id="content_list" data-aos="zoom-in-down">
 				<li><a href="#etymology">Etymology</a></li>
 				<li><a href="#history">History</a></li>
 				<li><a href="#geography">Geography</a></li>
 			</ul>
 		<br/>
 		<br/>
-		<div id="flex_section">
-			<div id="etymology" class="flex_col">
+		<div id="flex_section"  >
+			<div id="etymology" class="flex_col" data-aos="fade-up">
 				<strong>Etymology</strong>
 				<hr/>
 				<p>While a variety of theories have been postulated for the etymological origins of Canada<br/>
 				the name is now accepted as coming from the St. Lawrence Iroquoian word kanata, meaning <q>village</q> or <q>settlement</q>.<sup>[12]</sup>
 				</p>
 			</div>
-			<div id="history" class="flex_col">
+			<div id="history" class="flex_col" data-aos="flip-left" >
 				<strong>History</strong>
 				<hr/>
 				<h5>Indigenous peoples</h5>
@@ -100,7 +104,7 @@
 				
 			</div>
 			
-			<div id="geography" class="flex_col">
+			<div id="geography" class="flex_col" data-aos="fade-up-left">
 				<strong>Geography</strong>
 				<hr/>
 				
@@ -139,7 +143,7 @@
 				
 			</div>
 		</div>
-		<img id="calgary_img" src="calgary.jpg" alt="calgary_final_revised" />
+		<img id="calgary_img" src="calgary.jpg" alt="calgary_final_revised"  />
 		
 	</article>
 	<aside>
@@ -166,7 +170,8 @@
 	<sub>This page was last edited on 25 October 2021, at 15:58 (UTC).</sub>
 	</div>
 </footer>
-	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src = "AOS_Setting.js"></script>
 </body>
 
 </html>

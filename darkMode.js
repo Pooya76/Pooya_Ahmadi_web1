@@ -4,6 +4,6 @@ function changeMode(e){
 	if(isChecked == true){
 		document.getElementById('indexCSS').href='darkMode.css';
 	}else{
-		document.getElementById('indexCSS').href='basic.css';
+		document.getElementById('indexCSS').href='defaultMode.css';
 	}
 }

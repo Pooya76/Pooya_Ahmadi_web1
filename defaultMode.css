@@ -1,70 +1,13 @@
 body {
-  margin: 10px;
-  font-family: Arial, Garamond, sans-serif;
-}
-header{
-	border: 2px solid #808080;
-	text-align: center;
-	text-transform: capitalize;
-}
-
-header form{
-	text-align: right;
-}
-
-#toggle-switch{
-	margin-left: 5px;
-	text-align: left;
-}
-
-#content_list{
-	list-style-type: square;
-	text-decoration: none;
+  background-color: linen;
 }
 
 #content_list li a{
-	text-decoration: none;
+	color: blue;
 }
 
-table{
-	border: 2px solid black;
-}
-
-table td{
-	border-top: 2px solid black;
-	padding: 10px;
-}
-
-#calgary_img{
-	width: 250px;
-	height: 200px;
-	transition: width 2s, height 2s, transform 2s;
-	padding-left: 40px;
-	padding-top: 40px;
-
-}
-
-#calgary_img:active {
-  width: 700px;
-  height: 300px;
-  transform: rotate(360deg);
-}
-
-footer{
-	border-top: 2px dotted #808080;
-}
-
-footer video{
-	margin: 15px 0 0 10px;
-	transition: width 2s, height 2s, transform 2s;
-}
-
-footer video:hover{
-	width: 350px;
-}
-
-#flex_section{
-	display: flex;
+a{
+	color: blue;
 }
 
 .flex_col{
